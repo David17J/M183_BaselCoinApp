@@ -5,13 +5,13 @@ import { HighlightModule } from 'ngx-highlightjs';
 import { ApiService } from 'src/app/api.service';
 
 @Component({
-  selector: 'app-external-api',
-  templateUrl: './external-api.component.html',
-  styleUrls: ['./external-api.component.css'],
+  selector: 'kontostand-api',
+  templateUrl: './kontostand-api.component.html',
+  styleUrls: ['./kontostand-api.component.css'],
   standalone: true,
   imports: [HighlightModule, NgClass, NgIf]
 })
-export class ExternalApiComponent {
+export class KontostandApiComponent {
   responseJson: string;
   audience: string | undefined;
   hasApiError = false;
